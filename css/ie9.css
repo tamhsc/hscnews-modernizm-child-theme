@@ -1,0 +1,30 @@
+form.websearch input[type=search] {
+	font-size: 10px;
+}
+
+/* footer */
+footer, .tamhscFooter {
+  height: 400px !important;
+  background-color: #5F574F !important;
+  display: block;
+}
+#footAcad, #quickLinksCentral, #quickLinks, #infoLinks, #affliationsCentral, #affliations {
+    float: left;
+    margin: 20px 0 10px;
+    padding: 0 12px;
+}
+#footAcad {
+    width: 270px;
+    padding: 0 5px 0 10px;
+}
+#footAcad ul li a, 
+#quickLinks ul li a,
+#quickLinksCentral ul li a {
+    font-size: 12px;
+}
+#infoLinks {
+    margin-left: 8px;
+}
+#affliationsCentral {
+  width: 104px;
+}

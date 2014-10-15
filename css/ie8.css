@@ -1,0 +1,94 @@
+.topBarContainer {
+	min-width: 1024px;
+}
+
+.desktopHide {display: none;}
+
+.topBar {
+	width: 1008px;
+	height: 37px;
+	overflow: hidden;
+	margin: 0 auto;
+	background-image: url(http://webassets.tamhsc.edu/global-assets/images/logos/tamu-top-bar-logo.gif);
+	background-position: left bottom;
+	background-repeat: no-repeat;
+}
+
+#topmenu li a {
+    font-size: 12px !important;
+    font-weight: normal !important;
+    margin: 0 0 5px !important;
+}
+
+.topLinks {
+	font-size: 10px;
+	height: 37px;
+	display: block;
+	color: #fff;
+	text-transform: uppercase;
+	line-height: 37px;
+	float: right;
+	margin-top: 0px;
+}
+
+form.websearch input[type=search] {
+	border: solid 1px #ccc;
+	padding: 2px 5px 0 8px;
+	text-transform: uppercase;
+	color: #333;
+	margin: 6px 0 6px 0;
+	float: right;
+	width: 120px;
+	height: 22px;
+	line-height: 22px;
+	font-size: 10px;
+}
+
+
+/* footer */
+.tamhscFooter a {
+	color: #ffffff;
+}
+.tamhscFooter ul, .tamhscFooter ul li {
+	list-style-type: none;
+}
+.tamhscFooter ul li a {
+	color: #ffffff;
+}
+
+footer, .tamhscFooter {
+  height: 400px !important;
+  background-color: #5F574F !important;
+  display: block;
+  width: 1008px !important;
+	color: #ffffff;
+	clear: both;
+}
+
+.tamhscFooter div {
+  background-color: #5F574F !important;
+  display: block;
+ }
+#bottomLinks {
+	display: block;
+	float: none;
+	clear: both;
+	height: 30px;
+	width: 1005px;
+}
+
+#footAcad, #quickLinksCentral, #quickLinks, #infoLinks, #affliationsCentral, #affliations {
+    float: left;
+    margin: 20px 0 10px;
+    padding: 0 12px;
+}
+#footAcad {
+    width: 270px;
+    padding: 0 5px 0 10px;
+}
+#infoLinks {
+    margin-left: 8px;
+}
+#affliationsCentral {
+  width: 104px;
+}
